@@ -15,10 +15,14 @@
 <h1 align="center">Umair Habib</h1>
 <p align="center"><b>Associate Software Engineer</b> · Full-Stack Web &amp; Mobile Developer</p>
 
-<!-- ░░░ TYPING ░░░ -->
+<!-- ░░░ TYPING (two-tone: cyan tech lines + amber tagline) ░░░ -->
 <p align="center">
   <a href="https://umairhabib.vercel.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=760&height=55&lines=Building+full-stack+web+%26+mobile+products;Next.js+%C2%B7+React+%C2%B7+Flutter+%C2%B7+Python+%C2%B7+PostgreSQL;Shipping+SaaS+platforms%2C+ERPs+%26+education+portals;Clean+code+%C2%B7+Scalable+architecture+%C2%B7+Real+impact" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=760&height=45&lines=Building+full-stack+web+%26+mobile+products;Next.js+%C2%B7+React+%C2%B7+Flutter+%C2%B7+Python+%C2%B7+PostgreSQL;Shipping+SaaS+platforms%2C+ERPs+%26+education+portals" alt="Typing SVG" />
+  </a>
+  <br/>
+  <a href="https://umairhabib.vercel.app/">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3600&pause=1000&color=FB923C&center=true&vCenter=true&width=620&height=30&lines=Clean+code+%C2%B7+Scalable+architecture+%C2%B7+Real+impact" alt="Tagline" />
   </a>
 </p>
 
