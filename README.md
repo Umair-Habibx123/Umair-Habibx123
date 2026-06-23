@@ -3,9 +3,19 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <!-- ░░░ HERO BANNER (custom lofi artwork) ░░░ -->
-<p align="center">
+<!-- 👉 To switch banners: comment out the active <p> block and uncomment the other one. -->
+
+<!-- ── OPTION 1: blue-sky / headphones / dual-monitor (ACTIVE) ── -->
+<!-- <p align="center">
   <img src="./assets/banner.png" width="100%" alt="Umair Habib — lofi coding banner" />
+</p> -->
+
+<!-- ── OPTION 2: cozy warm room / city window (commented out) ── -->
+<p align="center">
+  <img src="./assets/banner2.png" width="100%" alt="Umair Habib — lofi coding banner" />
 </p>
+
+
 
 <h1 align="center">Umair Habib</h1>
 <p align="center"><b>Associate Software Engineer</b> · Full-Stack Web &amp; Mobile Developer</p>
