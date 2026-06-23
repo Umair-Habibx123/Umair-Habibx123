@@ -83,14 +83,10 @@ const umair: Developer = {
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🐉 `run contribution-snake --summon`
+## 🐉 `render contribution-graph --live`
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Umair-Habibx123/Umair-Habibx123/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Umair-Habibx123/Umair-Habibx123/output/github-snake.svg">
-    <img alt="snake animation" src="https://raw.githubusercontent.com/Umair-Habibx123/Umair-Habibx123/output/github-snake.svg" />
-  </picture>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Umair-Habibx123&bg_color=0D1117&color=EC4899&line=7C3AED&point=06B6D4&area=true&area_color=7C3AED&hide_border=true&custom_title=Umair's%20Contribution%20Arc" alt="activity graph" width="100%" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
