@@ -4,8 +4,9 @@
 
 <!-- ░░░ HERO BANNER ░░░ -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:7C3AED,45:EC4899,100:06B6D4&height=260&section=header&text=Umair%20Habib&fontSize=78&fontColor=FFFFFF&animation=twinkling&fontAlignY=40&desc=%3C%20Frontend%20Dev%20%2F%20Anime%20Soul%20%2F%20Plus%20Ultra%20%3E&descSize=20&descAlignY=62" alt="banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:EC4899,100:06B6D4&height=240&section=header&text=Umair%20Habib&fontSize=72&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=%E2%9C%A6%20%20Frontend%20Dev%20%C2%B7%20Anime%20Soul%20%C2%B7%20Plus%20Ultra%20%20%E2%9C%A6&descSize=18&descAlignY=58" alt="banner" />
 </p>
+
 
 <!-- ░░░ TYPING ░░░ -->
 <p align="center">
@@ -26,6 +27,10 @@
 `▸ booting dev_terminal.exe ────────────────────── [ ████████████ 100% ]`
 
 </div>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+</p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
@@ -123,12 +128,16 @@ const umair: Developer = {
   <a href="https://github.com/Umair-Habibx123">
     <img src="https://img.shields.io/badge/GitHub-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="#">
+  <a href="https://www.linkedin.com/in/umair-habib-developer/">
     <img src="https://img.shields.io/badge/LinkedIn-06B6D4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="#">
+  <a href="https://umairhabib.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 </p>
 
 <!-- ░░░ FOOTER ░░░ -->
