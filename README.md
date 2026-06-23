@@ -10,11 +10,6 @@
   <img src="./assets/banner.png" width="100%" alt="Umair Habib — lofi coding banner" />
 </p>
 
-<!-- ── OPTION 2: cozy warm room / city window (commented out) ── -->
-<!-- <p align="center">
-  <img src="./assets/banner2.png" width="100%" alt="Umair Habib — lofi coding banner" />
-</p> -->
-
 
 
 <h1 align="center">Umair Habib</h1>
