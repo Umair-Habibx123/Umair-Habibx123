@@ -89,39 +89,6 @@ const umair = {
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 🚀 Featured Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎓 Pakistan Education Portal</h3>
-      <p><sub><code>Angular</code></sub></p>
-      <p>Commercial university listing portal — engineered the <b>Apply</b> feature enabling students to submit admissions directly on-platform.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🤝 Collaborative Edge</h3>
-      <p><sub><code>MERN Stack</code></sub></p>
-      <p>Real-time collaboration platform with live document editing, role-based dashboards, and skills showcasing for students, educators &amp; industry.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💬 Real-Time Chat App</h3>
-      <p><sub><code>Flutter</code> · <code>Firebase</code></sub></p>
-      <p>Production cross-platform chat app with end-to-end message sync, secure auth, and real-time messaging.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛒 E-commerce Website</h3>
-      <p><sub><code>React</code> · <code>Firebase</code></sub></p>
-      <p>Responsive storefront with product listings, cart management, and Firebase-backed authentication.</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center"><sub>✦ More projects &amp; live demos on my <a href="https://umairhabib.vercel.app/">portfolio</a> ✦</sub></p>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
 ## 📊 GitHub Stats
 
 <p align="center">
