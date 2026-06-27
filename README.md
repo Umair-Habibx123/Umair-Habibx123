@@ -1,16 +1,10 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                    UMAIR HABIB · Associate Software Engineer            -->
+<!--                                  HERO                                    -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<!-- ░░░ HERO BANNER (custom lofi artwork) ░░░ -->
-<!-- 👉 To switch banners: comment out the active <p> block and uncomment the other one. -->
-
-<!-- ── OPTION 1: blue-sky / headphones / dual-monitor (ACTIVE) ── -->
 <p align="center">
-  <img src="./assets/banner.png" width="100%" alt="Umair Habib — lofi coding banner" />
+  <img src="./assets/img/banner.png" width="100%" alt="Umair Habib — lofi coding banner" />
 </p>
-
-
 
 <h1 align="center">Umair Habib</h1>
 <p align="center"><b>Associate Software Engineer</b> · Full-Stack Web &amp; Mobile Developer</p>
@@ -38,8 +32,14 @@
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                                ABOUT ME                                  -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 ## 👨‍💻 About Me
+
+<table>
+<tr>
+<td width="62%" valign="top">
 
 ```typescript
 const umair = {
@@ -47,18 +47,29 @@ const umair = {
   based:     "Rawalpindi / Islamabad, Pakistan 🇵🇰",
   education: "B.S. Software Engineering — NUML (2021–2025)",
   focus:     ["Full-Stack Web", "Mobile", "AI-powered SaaS"],
-  frontend:  ["Next.js", "React", "Angular", "TypeScript", "Tailwind"],
+  frontend:  ["Next.js", "React", "Angular", "TypeScript"],
   mobile:    ["Flutter", "Android"],
   backend:   ["Python", "Flask", "Node.js", "REST APIs"],
-  data:      ["PostgreSQL", "Firebase", "SQL/SQLite", "AWS"],
-  values:    ["Scalable architecture", "Clean code", "Products that matter"],
+  data:      ["PostgreSQL", "Firebase", "SQLite", "AWS"],
+  values:    ["Scalable architecture", "Clean code"],
 };
 ```
+
+</td>
+<td width="38%" valign="top" align="center">
+
+<img width="92%" src="./assets/img/uruma-shun.gif" alt="manga art accent" />
+
+</td>
+</tr>
+</table>
 
 > Associate Software Engineer with **1.5+ years** of professional experience delivering full-stack
 > web and mobile applications — with a track record of shipping SaaS platforms, ERP systems,
 > and large-scale education portals.
 
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                               TECH STACK                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 ## 🛠️ Tech Stack
@@ -72,21 +83,24 @@ const umair = {
 **Mobile · Backend · Data &amp; Cloud**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=flutter,dart,python,flask,nodejs,express&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,python,flask,nodejs,express&theme=dark&perline=8" />
   <br/>
   <img src="https://skillicons.dev/icons?i=postgres,firebase,sqlite,aws,git,github,cs,c&theme=dark&perline=8" />
 </p>
 
+<details>
+  <summary>🖥️ <b>Peek at my workspace</b></summary>
+  <br/>
+  <img src="./assets/img/34324333.jpg" width="100%" alt="dev workspace" />
+</details>
+
+<!-- ░░░ DIVIDER ░░░ -->
+<p align="center">
+  <img src="./assets/gifs/hu-tao-scary-genshin-impact-moewalls-com.gif" width="100%" alt="" />
+</p>
+
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## 💼 Experience
-
-| Role | Company | Period |
-|------|---------|--------|
-| **Associate Software Engineer** | galvanai · *AI SaaS platforms* | 11/2025 – Present |
-| **Frontend Developer Intern** | AIMS Soft · *Angular school ERP & Pakistan Education Portal* | 01/2025 – 05/2025 |
-| **Flutter Developer Intern** | Eziline Software House | 07/2024 – 09/2024 |
-
+<!--                              GITHUB STATS                                -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 ## 📊 GitHub Stats
@@ -105,18 +119,66 @@ const umair = {
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                          CONTRIBUTION SNAKE                              -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-## 📈 Contribution Activity
+## 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Umair-Habibx123/Umair-Habibx123/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Umair-Habibx123/Umair-Habibx123/output/github-snake.svg" />
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Umair-Habibx123/Umair-Habibx123/output/github-snake.svg" width="100%" />
+  </picture>
+</p>
+
+## 📈 Contribution Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Umair-Habibx123&bg_color=0D1117&color=38BDF8&line=FB923C&point=38BDF8&area=true&area_color=1E3A8A&hide_border=true&custom_title=Contribution%20Graph" alt="activity graph" width="100%" />
 </p>
 
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                          RECENT ACTIVITY (BOT)                           -->
+<!--   Auto-filled by .github/workflows/update-readme.yml — do NOT remove     -->
+<!--   the START/END markers below; the action writes between them.           -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## ⚡ Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<!-- ░░░ DIVIDER ░░░ -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+  <img src="./assets/gifs/anime-girl-eyes-rose-bloom-moewalls-com.gif" width="100%" alt="" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                           PROFILE SUMMARY                                -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+## 🧾 Profile Summary
+
+<div align="center">
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Umair-Habibx123&theme=github_dark)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Umair-Habibx123&theme=github_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Umair-Habibx123&theme=github_dark)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Umair-Habibx123&theme=github_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Umair-Habibx123&theme=github_dark&utcOffset=8)
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                            CONNECT WITH ME                               -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+<p align="center">
+  <img src="./assets/img/neonview.jpg" width="100%" alt="neon city night" />
+</p>
 
 ## 📫 Connect With Me
 
@@ -132,6 +194,12 @@ const umair = {
   </a>
   <a href="mailto:umairhabibabc@gmail.com">
     <img src="https://img.shields.io/badge/Email-FB923C?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Umair-Habibx123?tab=repositories&sort=stargazers">
+    <img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Browse%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/>
   </a>
 </p>
 
