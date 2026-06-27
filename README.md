@@ -73,9 +73,7 @@ const umair = {
 
 <div align="center">
 <details>
-  <summary>
-    <img src="https://img.shields.io/badge/🖥️%20Peek%20at%20my%20workspace-1F222E?style=for-the-badge&logoColor=white" alt="toggle workspace" />
-  </summary>
+  <summary><b>🖥️ &nbsp;Peek at my workspace</b></summary>
   <br/>
   <img src="./assets/gifs/hu-tao-scary-genshin-impact-moewalls-com.gif" width="100%" alt="dev workspace" />
 </details>
