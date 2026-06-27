@@ -5,6 +5,9 @@
 <p align="center">
   <img src="./assets/img/banner.png" width="100%" alt="Umair Habib — lofi coding banner" />
 </p>
+<!-- <p align="center">
+  <img src="./assets/gifs/anime-girl-eyes-rose-bloom-moewalls-com.gif" width="100%" alt="" />
+</p> -->
 
 <h1 align="center">Umair Habib</h1>
 <p align="center"><b>Associate Software Engineer</b> · Full-Stack Web &amp; Mobile Developer</p>
@@ -68,6 +71,16 @@ const umair = {
 > web and mobile applications — with a track record of shipping SaaS platforms, ERP systems,
 > and large-scale education portals.
 
+<div align="center">
+<details>
+  <summary>
+    <img src="https://img.shields.io/badge/🖥️%20Peek%20at%20my%20workspace-1F222E?style=for-the-badge&logoColor=white" alt="toggle workspace" />
+  </summary>
+  <br/>
+  <img src="./assets/gifs/hu-tao-scary-genshin-impact-moewalls-com.gif" width="100%" alt="dev workspace" />
+</details>
+</div>
+
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                               TECH STACK                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -88,27 +101,23 @@ const umair = {
   <img src="https://skillicons.dev/icons?i=postgres,firebase,sqlite,aws,git,github,cs,c&theme=dark&perline=8" />
 </p>
 
-<details>
-  <summary>🖥️ <b>Peek at my workspace</b></summary>
-  <br/>
-  <img src="./assets/img/34324333.jpg" width="100%" alt="dev workspace" />
-</details>
-
-<!-- ░░░ DIVIDER ░░░ -->
-<p align="center">
-  <img src="./assets/gifs/hu-tao-scary-genshin-impact-moewalls-com.gif" width="100%" alt="" />
-</p>
-
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                              GITHUB STATS                                -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Umair-Habibx123&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&title_color=38BDF8&icon_color=FB923C&text_color=c9d1d9&bg_color=0D1117" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Umair-Habibx123&layout=compact&theme=tokyonight&hide_border=true&title_color=38BDF8&text_color=c9d1d9&bg_color=0D1117" />
-</p>
+<div align="center">
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Umair-Habibx123&theme=github_dark)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Umair-Habibx123&theme=github_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Umair-Habibx123&theme=github_dark)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Umair-Habibx123&theme=github_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Umair-Habibx123&theme=github_dark&utcOffset=8)
+
+</div>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Umair-Habibx123&theme=tokyonight&hide_border=true&background=0D1117&stroke=38BDF8&ring=FB923C&fire=FB923C&currStreakLabel=38BDF8" alt="streak" />
@@ -150,35 +159,20 @@ const umair = {
 <!--END_SECTION:activity-->
 
 <!-- ░░░ DIVIDER ░░░ -->
+<!-- <p align="center">
+  <img src="./assets/img/banner.png" width="100%" alt="Umair Habib — lofi coding banner" />
+</p> -->
 <p align="center">
   <img src="./assets/gifs/anime-girl-eyes-rose-bloom-moewalls-com.gif" width="100%" alt="" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                           PROFILE SUMMARY                                -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-## 🧾 Profile Summary
-
-<div align="center">
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Umair-Habibx123&theme=github_dark)
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Umair-Habibx123&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Umair-Habibx123&theme=github_dark)
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Umair-Habibx123&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Umair-Habibx123&theme=github_dark&utcOffset=8)
-
-</div>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                            CONNECT WITH ME                               -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/img/neonview.jpg" width="100%" alt="neon city night" />
-</p>
+</p> -->
 
 ## 📫 Connect With Me
 
