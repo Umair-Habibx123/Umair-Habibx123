@@ -42,42 +42,42 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/Umair-Habibx123/Collaborative_Edge_FYP">Collaborative_Edge_FYP</a></h3>
-<p>A web-based portal for students, teachers, and industry representatives to collaborate on Final Year Projects (FYPs). Industry posts ideas, teachers…</p>
+<h3><a href="https://github.com/Umair-Habibx123/collaborative-edge">collaborative-edge</a></h3>
+<p>MERN portal connecting industry, teachers and students around final-year projects: post ideas, approve, supervise, submit and evaluate. Includes a…</p>
 <p><code>JavaScript</code> &nbsp;·&nbsp; <a href="https://collaborative-edge.vercel.app">Live demo</a></p>
-<p><sub><code>#final-year-project</code> <code>#fyp</code> <code>#javascript</code> <code>#mern-stack</code></sub></p>
+<p><sub><code>#fyp</code> <code>#javascript</code> <code>#mern-stack</code> <code>#nodejs</code></sub></p>
 </td>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/Umair-Habibx123/FireStream">FireStream</a></h3>
-<p>FireStream Chat App is a feature-rich Flutter app enabling seamless group chats with Firebase integration. Includes real-time messaging, media…</p>
+<h3><a href="https://github.com/Umair-Habibx123/firestream">firestream</a></h3>
+<p>Real-time Flutter chat app for Android with Firebase: one-to-one and group chats, images, files and voice notes, admin-controlled groups, online…</p>
 <p><code>Dart</code> &nbsp;·&nbsp; ⭐ 1</p>
-<p><sub><code>#android-app</code> <code>#authentiation</code> <code>#chat-application</code> <code>#dart</code></sub></p>
+<p><sub><code>#android-app</code> <code>#chat-application</code> <code>#dart</code> <code>#firebase</code></sub></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/Umair-Habibx123/Pakistan-Education-Portal">Pakistan-Education-Portal</a></h3>
-<p>Built portal listing Pakistani universities and programs with Apply feature for admission processing.</p>
-<p><code>TypeScript</code></p>
+<h3><a href="https://github.com/Umair-Habibx123/pakistan-education-portal">pakistan-education-portal</a></h3>
+<p>Angular 16 frontend for searching Pakistani universities and programs and applying for admission, with an admin panel. Built with a team during my…</p>
+<p><code>TypeScript</code> &nbsp;·&nbsp; <a href="https://pakistaneducationportal.com">Live demo</a></p>
 <p><sub><code>#angular</code> <code>#bootstrap</code> <code>#educational-project</code> <code>#portal</code></sub></p>
 </td>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/Umair-Habibx123/EC3Store">EC3Store</a></h3>
-<p>A stylish and user-friendly e-commerce website built with React, offering a wide range of premium Products. The platform allows users to browse…</p>
+<h3><a href="https://github.com/Umair-Habibx123/ec3-store">ec3-store</a></h3>
+<p>Full-stack React e-commerce store: Firebase auth and Firestore, Stripe checkout with server-side pricing, cash on delivery, and an admin dashboard.</p>
 <p><code>JavaScript</code> &nbsp;·&nbsp; <a href="https://ec3store.vercel.app">Live demo</a></p>
 <p><sub><code>#ecommerce</code> <code>#ecommerce-website</code> <code>#firebase</code> <code>#full-stack</code></sub></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/Umair-Habibx123/gemini_ai_app">gemini_ai_app</a></h3>
-<p>Gemini_AI_App is an innovative AI-powered application that allows users to send both text and image prompts for generating personalized AI responses…</p>
+<h3><a href="https://github.com/Umair-Habibx123/gemini-ai-app">gemini-ai-app</a></h3>
+<p>Flutter chat app for Android powered by Google Gemini: text, images, voice notes, video, PDFs and files, streamed Markdown answers, model fallback…</p>
 <p><code>Dart</code> &nbsp;·&nbsp; ⭐ 1</p>
 <p><sub><code>#android-app</code> <code>#api</code> <code>#chatbot</code> <code>#dart</code></sub></p>
 </td>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/Umair-Habibx123/news_app">news_app</a></h3>
-<p>A news app built with Flutter and News API, allowing users to browse and filter articles by categories like general, health, and entertainment. The…</p>
+<h3><a href="https://github.com/Umair-Habibx123/news-app">news-app</a></h3>
+<p>Flutter news reader for Android: headlines by category, search, offline bookmarks, English/Urdu/Arabic UI, light and dark themes. Signed APKs in…</p>
 <p><code>Dart</code> &nbsp;·&nbsp; ⭐ 1</p>
 <p><sub><code>#android-app</code> <code>#apis</code> <code>#dart</code> <code>#flutter</code></sub></p>
 </td>
@@ -172,11 +172,11 @@ const umair = {
 ## 🔨 Recently Updated
 
 <!--START_SECTION:recent-->
-- **[DriveLens](https://github.com/Umair-Habibx123/DriveLens)** — See what's filling your Windows drive and clean it up safely. Fast scan, clickable… · `HTML` · <sub>updated Nov 9, 2026</sub>
-- **[Spiderman-Iconic-Scene-OpenCV](https://github.com/Umair-Habibx123/Spiderman-Iconic-Scene-OpenCV)** · `Python` · <sub>updated Sep 16, 2026</sub>
-- **[OUTPOST-LAST-WATCH_GalvanAIMangoMania](https://github.com/Umair-Habibx123/OUTPOST-LAST-WATCH_GalvanAIMangoMania)** · `JavaScript` · <sub>updated Aug 13, 2026</sub>
-- **[EC3Store](https://github.com/Umair-Habibx123/EC3Store)** — A stylish and user-friendly e-commerce website built with React, offering a wide range of… · `JavaScript` · <sub>updated Jun 25, 2026</sub>
-- **[Collaborative_Edge_FYP](https://github.com/Umair-Habibx123/Collaborative_Edge_FYP)** — A web-based portal for students, teachers, and industry representatives to collaborate on… · `JavaScript` · <sub>updated Jun 25, 2026</sub>
+- **[firestream](https://github.com/Umair-Habibx123/firestream)** — Real-time Flutter chat app for Android with Firebase: one-to-one and group chats, images… · `Dart` · <sub>updated Nov 9, 2026</sub>
+- **[attendy-sqlite](https://github.com/Umair-Habibx123/attendy-sqlite)** — Offline attendance app for Android (Flutter + SQLite): check-ins, leave and admin… · `Dart` · <sub>updated Nov 9, 2026</sub>
+- **[gemini-ai-app](https://github.com/Umair-Habibx123/gemini-ai-app)** — Flutter chat app for Android powered by Google Gemini: text, images, voice notes, video… · `Dart` · <sub>updated Nov 9, 2026</sub>
+- **[news-app](https://github.com/Umair-Habibx123/news-app)** — Flutter news reader for Android: headlines by category, search, offline bookmarks… · `Dart` · <sub>updated Nov 9, 2026</sub>
+- **[pakistan-education-portal](https://github.com/Umair-Habibx123/pakistan-education-portal)** — Angular 16 frontend for searching Pakistani universities and programs and applying for… · `TypeScript` · <sub>updated Nov 9, 2026</sub>
 <!--END_SECTION:recent-->
 
 ## ⚡ Recent Activity
@@ -184,9 +184,12 @@ const umair = {
 <!--START_SECTION:activity-->
 <sub>Last 30 days</sub>
 
-- ⬆️ 4 commits to [DriveLens](https://github.com/Umair-Habibx123/DriveLens) <sub>· Nov 9, 2026</sub>
-- ⬆️ 3 commits to [Umair-Habibx123](https://github.com/Umair-Habibx123/Umair-Habibx123) <sub>· Nov 9, 2026</sub>
-- 🆕 Created [DriveLens](https://github.com/Umair-Habibx123/DriveLens) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 1 commit to [firestream](https://github.com/Umair-Habibx123/firestream) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 1 commit to [pakistan-youth-portal](https://github.com/Umair-Habibx123/pakistan-youth-portal) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 1 commit to [portfolio-aspnet-mvc](https://github.com/Umair-Habibx123/portfolio-aspnet-mvc) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 1 commit to [atm-machine-cpp](https://github.com/Umair-Habibx123/atm-machine-cpp) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 1 commit to [gemini-ai-app](https://github.com/Umair-Habibx123/gemini-ai-app) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 1 commit to [outpost-last-watch-mango-mania-season-1](https://github.com/Umair-Habibx123/outpost-last-watch-mango-mania-season-1) <sub>· Nov 9, 2026</sub>
 <!--END_SECTION:activity-->
 
 <!-- ═══════════════════════════ CONTRIBUTION SNAKE ════════════════════════ -->
@@ -221,6 +224,6 @@ The quickest way to reach me is [LinkedIn](https://www.linkedin.com/in/umair-hab
 
 <p align="center">
 <!--START_SECTION:updated-->
-<sub>Updated automatically from live GitHub data · Nov 9, 2026, 7:47 AM UTC</sub>
+<sub>Updated automatically from live GitHub data · Nov 9, 2026, 10:25 PM UTC</sub>
 <!--END_SECTION:updated-->
 </p>
