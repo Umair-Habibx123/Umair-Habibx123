@@ -93,6 +93,24 @@ async function fetchLive() {
   let events = [];
   try { events = await rest(`/users/${USER}/events/public?per_page=60`); } catch { events = []; }
 
+  // The public events feed is often empty, so recent work also comes from contributions data.
+  const since = new Date(Date.now() - 30 * 864e5).toISOString();
+  const emptyRecent = { commitContributionsByRepository: [], repositoryContributions: { nodes: [] }, pullRequestContributions: { nodes: [] } };
+  const recent = await gql(`query($login: String!, $from: DateTime!) {
+    user(login: $login) {
+      contributionsCollection(from: $from) {
+        commitContributionsByRepository(maxRepositories: 8) {
+          repository { nameWithOwner isPrivate }
+          contributions(first: 1, orderBy: {field: OCCURRED_AT, direction: DESC}) { totalCount nodes { occurredAt } }
+        }
+        repositoryContributions(first: 5) { nodes { occurredAt repository { nameWithOwner isPrivate } } }
+        pullRequestContributions(first: 5) { nodes { occurredAt pullRequest { number url repository { nameWithOwner isPrivate } } } }
+      }
+    }
+  }`, { login: USER, from: since })
+    .then((d) => d.user.contributionsCollection)
+    .catch((err) => { console.warn(`Recent work unavailable: ${err.message}`); return emptyRecent; });
+
   return {
     user: { login: u.login, name: u.name || u.login, createdAt: u.createdAt, followers: u.followers.totalCount, pullRequests: u.pullRequests.totalCount },
     pinned: u.pinnedItems.nodes.map((n) => n.name),
@@ -111,6 +129,16 @@ async function fetchLive() {
       days: yearly[`y${y}`].contributionCalendar.weeks.flatMap((w) => w.contributionDays).map((d) => ({ date: d.date, count: d.contributionCount })),
     })),
     events: events.map((e) => ({ type: e.type, repo: e.repo.name, date: e.created_at, payload: e.payload || {} })),
+    recentWork: [
+      ...recent.commitContributionsByRepository.filter((c) => !c.repository.isPrivate).map((c) => ({
+        kind: 'commits', repo: c.repository.nameWithOwner, count: c.contributions.totalCount,
+        date: c.contributions.nodes[0] ? c.contributions.nodes[0].occurredAt : since,
+      })),
+      ...recent.repositoryContributions.nodes.filter((n) => !n.repository.isPrivate).map((n) => ({ kind: 'created', repo: n.repository.nameWithOwner, date: n.occurredAt })),
+      ...recent.pullRequestContributions.nodes.filter((n) => !n.pullRequest.repository.isPrivate).map((n) => ({
+        kind: 'pr', repo: n.pullRequest.repository.nameWithOwner, number: n.pullRequest.number, url: n.pullRequest.url, date: n.occurredAt,
+      })),
+    ],
   };
 }
 
@@ -139,6 +167,7 @@ function computeStats(data) {
   }
 
   return {
+    activeDays: last365.filter((d) => d.count > 0).length,
     allTime: data.years.reduce((s, y) => s + y.total, 0),
     lastYear: last365.reduce((s, d) => s + d.count, 0),
     commits: data.years.reduce((s, y) => s + (y.commits || 0), 0),
@@ -197,7 +226,8 @@ function overviewCard(stats, name, t) {
     ['Current streak', `${num(stats.current)} ${stats.current === 1 ? 'day' : 'days'}`, t.accent2],
     ['Longest streak', `${num(stats.longest)} ${stats.longest === 1 ? 'day' : 'days'}`, t.text],
     ['Commits', num(stats.commits), t.text],
-    ['Pull requests', num(stats.pullRequests), t.text],
+    // Show pull requests once there are some; until then, show how many days had contributions.
+    stats.pullRequests > 0 ? ['Pull requests', num(stats.pullRequests), t.text] : ['Active days, last year', num(stats.activeDays), t.text],
     ['Public repositories', num(stats.repos), t.text],
     ['Stars earned', num(stats.stars), t.text],
   ];
@@ -337,9 +367,19 @@ function activitySection(data) {
     }
     if (text) lines.push({ text, day });
   }
+  // Contributions data covers what the events feed misses: commits per repo, new repos and pull requests.
+  const seen = new Set(lines.map((l) => l.text));
+  const work = (data.recentWork || []).slice().sort((a, b) => b.date.localeCompare(a.date));
+  for (const w of work) {
+    let text = null;
+    if (w.kind === 'commits') text = `⬆️ ${w.count} ${w.count === 1 ? 'commit' : 'commits'} to ${link(w.repo)}`;
+    else if (w.kind === 'created') text = `🆕 Created ${link(w.repo)}`;
+    else if (w.kind === 'pr') text = `🔀 Opened pull request [#${w.number}](${w.url}) in ${link(w.repo)}`;
+    if (text && !seen.has(text)) { seen.add(text); lines.push({ text, day: shortDate(w.date), sortKey: w.date }); }
+  }
   const top = lines.slice(0, CONFIG.activityCount);
-  if (!top.length) return '_No public activity in the last few weeks._';
-  return top.map((l) => `- ${l.text} <sub>· ${l.day}</sub>`).join('\n');
+  if (!top.length) return '_No public activity in the last 30 days._';
+  return `<sub>Last 30 days</sub>\n\n${top.map((l) => `- ${l.text} <sub>· ${l.day}</sub>`).join('\n')}`;
 }
 
 /* ---------------- Writing ---------------- */
