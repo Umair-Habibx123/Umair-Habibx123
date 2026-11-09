@@ -77,44 +77,44 @@ const umair = {
 <table>
 <tr>
 <td width="50%" valign="top">
+<h3><a href="https://github.com/Umair-Habibx123/Collaborative_Edge_FYP">Collaborative_Edge_FYP</a></h3>
+<p>A web-based portal for students, teachers, and industry representatives to collaborate on Final Year Projects (FYPs). Industry posts ideas, teachers…</p>
+<p><code>JavaScript</code> &nbsp;·&nbsp; <a href="https://collaborative-edge.vercel.app">Live demo</a></p>
+<p><sub><code>#final-year-project</code> <code>#fyp</code> <code>#javascript</code> <code>#mern-stack</code></sub></p>
+</td>
+<td width="50%" valign="top">
 <h3><a href="https://github.com/Umair-Habibx123/FireStream">FireStream</a></h3>
 <p>FireStream Chat App is a feature-rich Flutter app enabling seamless group chats with Firebase integration. Includes real-time messaging, media…</p>
 <p><code>Dart</code> &nbsp;·&nbsp; ⭐ 1</p>
 <p><sub><code>#android-app</code> <code>#authentiation</code> <code>#chat-application</code> <code>#dart</code></sub></p>
 </td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Umair-Habibx123/Pakistan-Education-Portal">Pakistan-Education-Portal</a></h3>
+<p>Built portal listing Pakistani universities and programs with Apply feature for admission processing.</p>
+<p><code>TypeScript</code></p>
+<p><sub><code>#angular</code> <code>#bootstrap</code> <code>#educational-project</code> <code>#portal</code></sub></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Umair-Habibx123/EC3Store">EC3Store</a></h3>
+<p>A stylish and user-friendly e-commerce website built with React, offering a wide range of premium Products. The platform allows users to browse…</p>
+<p><code>JavaScript</code> &nbsp;·&nbsp; <a href="https://ec3store.vercel.app">Live demo</a></p>
+<p><sub><code>#ecommerce</code> <code>#ecommerce-website</code> <code>#firebase</code> <code>#full-stack</code></sub></p>
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/Umair-Habibx123/gemini_ai_app">gemini_ai_app</a></h3>
 <p>Gemini_AI_App is an innovative AI-powered application that allows users to send both text and image prompts for generating personalized AI responses…</p>
 <p><code>Dart</code> &nbsp;·&nbsp; ⭐ 1</p>
 <p><sub><code>#android-app</code> <code>#api</code> <code>#chatbot</code> <code>#dart</code></sub></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/Umair-Habibx123/news_app">news_app</a></h3>
 <p>A news app built with Flutter and News API, allowing users to browse and filter articles by categories like general, health, and entertainment. The…</p>
 <p><code>Dart</code> &nbsp;·&nbsp; ⭐ 1</p>
 <p><sub><code>#android-app</code> <code>#apis</code> <code>#dart</code> <code>#flutter</code></sub></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/Umair-Habibx123/DriveLens">DriveLens</a></h3>
-<p>See what's filling your Windows drive and clean it up safely. Fast scan, clickable treemap, open folders in File Explorer, and a step-by-step cleanup…</p>
-<p><code>HTML</code></p>
-<p><sub><code>#cache-cleaner</code> <code>#cleanup</code> <code>#dashboard</code> <code>#developer-tools</code></sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/Umair-Habibx123/EC3Store">EC3Store</a></h3>
-<p>A stylish and user-friendly e-commerce website built with React, offering a wide range of premium Products. The platform allows users to browse…</p>
-<p><code>JavaScript</code> &nbsp;·&nbsp; <a href="https://ec3store.vercel.app">Live demo</a></p>
-<p><sub><code>#ec3store</code> <code>#ecommerce</code> <code>#ecommerce-website</code> <code>#firebase</code></sub></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/Umair-Habibx123/Collaborative_Edge_FYP">Collaborative_Edge_FYP</a></h3>
-<p>A web-based portal for students, teachers, and industry representatives to collaborate on Final Year Projects (FYPs). Industry posts ideas, teachers…</p>
-<p><code>JavaScript</code> &nbsp;·&nbsp; <a href="https://collaborative-edge.vercel.app">Live demo</a></p>
-<p><sub><code>#final-year-project</code> <code>#fyp</code> <code>#javascript</code> <code>#mern-stack</code></sub></p>
 </td>
 </tr>
 </table>
@@ -216,6 +216,6 @@ The quickest way to reach me is [LinkedIn](https://www.linkedin.com/in/umair-hab
 
 <p align="center">
 <!--START_SECTION:updated-->
-<sub>Updated automatically from live GitHub data · Nov 9, 2026, 7:09 AM UTC</sub>
+<sub>Updated automatically from live GitHub data · Nov 9, 2026, 7:16 AM UTC</sub>
 <!--END_SECTION:updated-->
 </p>
