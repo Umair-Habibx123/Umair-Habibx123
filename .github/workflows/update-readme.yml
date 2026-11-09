@@ -1,26 +1,51 @@
-name: Refresh README with Recent GitHub Activity
+name: Update profile README
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Runs twice a day (every 12 hours)
-  workflow_dispatch:  # Allows manual trigger
+    - cron: "17 */6 * * *"   # every 6 hours
+  workflow_dispatch:          # run it by hand from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/**"
+      - ".github/workflows/update-readme.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
 
 jobs:
-  build:
-    name: Auto-Update README with Latest Activity
+  update:
+    name: Refresh stats, projects and activity
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4  # Check out the repo
+      - name: Check out the repository
+        uses: actions/checkout@v4
 
-      - name: Update README with GitHub Activity
-        uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Built-in token (contents:write granted above)
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          COMMIT_MSG: "🚀 Auto-update: Keep up with the latest activity! ✨"  # commit message
-          MAX_LINES: 5  # Limit to 5 recent activities
-          COMMIT_NAME: GitHub Activity Bot  # Custom commit author name
+          node-version: 20
+
+      - name: Generate README sections and stat cards
+        env:
+          # Optional: add a PROFILE_TOKEN secret (a classic token with read:user) to include
+          # private contributions in the totals. Otherwise the built-in token counts public ones.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: node .github/scripts/update-profile.mjs
+
+      - name: Commit changes, if any
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898233+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/generated
+          git commit -m "chore: refresh profile stats and projects"
+          git push
