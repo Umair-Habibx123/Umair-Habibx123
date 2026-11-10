@@ -172,11 +172,11 @@ const umair = {
 ## 🔨 Recently Updated
 
 <!--START_SECTION:recent-->
+- **[attendy](https://github.com/Umair-Habibx123/attendy)** — Team attendance app (Flutter + Firebase): one-tap check-ins on server time… · `Dart` · <sub>updated Nov 10, 2026</sub>
 - **[firestream](https://github.com/Umair-Habibx123/firestream)** — Real-time Flutter chat app for Android with Firebase: one-to-one and group chats, images… · `Dart` · <sub>updated Nov 9, 2026</sub>
 - **[attendy-sqlite](https://github.com/Umair-Habibx123/attendy-sqlite)** — Offline attendance app for Android (Flutter + SQLite): check-ins, leave and admin… · `Dart` · <sub>updated Nov 9, 2026</sub>
 - **[gemini-ai-app](https://github.com/Umair-Habibx123/gemini-ai-app)** — Flutter chat app for Android powered by Google Gemini: text, images, voice notes, video… · `Dart` · <sub>updated Nov 9, 2026</sub>
 - **[news-app](https://github.com/Umair-Habibx123/news-app)** — Flutter news reader for Android: headlines by category, search, offline bookmarks… · `Dart` · <sub>updated Nov 9, 2026</sub>
-- **[pakistan-education-portal](https://github.com/Umair-Habibx123/pakistan-education-portal)** — Angular 16 frontend for searching Pakistani universities and programs and applying for… · `TypeScript` · <sub>updated Nov 9, 2026</sub>
 <!--END_SECTION:recent-->
 
 ## ⚡ Recent Activity
@@ -184,12 +184,12 @@ const umair = {
 <!--START_SECTION:activity-->
 <sub>Last 30 days</sub>
 
-- ⬆️ Pushed 1 commit to [firestream](https://github.com/Umair-Habibx123/firestream) <sub>· Nov 9, 2026</sub>
-- ⬆️ Pushed 1 commit to [pakistan-youth-portal](https://github.com/Umair-Habibx123/pakistan-youth-portal) <sub>· Nov 9, 2026</sub>
-- ⬆️ Pushed 1 commit to [portfolio-aspnet-mvc](https://github.com/Umair-Habibx123/portfolio-aspnet-mvc) <sub>· Nov 9, 2026</sub>
-- ⬆️ Pushed 1 commit to [atm-machine-cpp](https://github.com/Umair-Habibx123/atm-machine-cpp) <sub>· Nov 9, 2026</sub>
-- ⬆️ Pushed 1 commit to [gemini-ai-app](https://github.com/Umair-Habibx123/gemini-ai-app) <sub>· Nov 9, 2026</sub>
-- ⬆️ Pushed 1 commit to [outpost-last-watch-mango-mania-season-1](https://github.com/Umair-Habibx123/outpost-last-watch-mango-mania-season-1) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 1 commit to [pakistan-education-portal](https://github.com/Umair-Habibx123/pakistan-education-portal) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 1 commit to [practice-ecommerce](https://github.com/Umair-Habibx123/practice-ecommerce) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 2 commits to [firestream](https://github.com/Umair-Habibx123/firestream) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 2 commits to [gemini-ai-app](https://github.com/Umair-Habibx123/gemini-ai-app) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 1 commit to [attendy-sqlite](https://github.com/Umair-Habibx123/attendy-sqlite) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 4 commits to [drivelens](https://github.com/Umair-Habibx123/drivelens) <sub>· Nov 9, 2026</sub>
 <!--END_SECTION:activity-->
 
 <!-- ═══════════════════════════ CONTRIBUTION SNAKE ════════════════════════ -->
@@ -224,6 +224,6 @@ The quickest way to reach me is [LinkedIn](https://www.linkedin.com/in/umair-hab
 
 <p align="center">
 <!--START_SECTION:updated-->
-<sub>Updated automatically from live GitHub data · Nov 9, 2026, 10:25 PM UTC</sub>
+<sub>Updated automatically from live GitHub data · Nov 10, 2026, 7:22 AM UTC</sub>
 <!--END_SECTION:updated-->
 </p>
