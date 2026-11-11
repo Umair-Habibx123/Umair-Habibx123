@@ -172,7 +172,7 @@ const umair = {
 ## 🔨 Recently Updated
 
 <!--START_SECTION:recent-->
-- **[Personal-Portfolio](https://github.com/Umair-Habibx123/Personal-Portfolio)** — A personal portfolio website built using React, showcasing my projects, skills, and… · `JavaScript` · <sub>updated Nov 10, 2026</sub>
+- **[Personal-Portfolio](https://github.com/Umair-Habibx123/Personal-Portfolio)** — A personal portfolio website built using React, showcasing my projects, skills, and… · `JavaScript` · <sub>updated Nov 11, 2026</sub>
 - **[attendy](https://github.com/Umair-Habibx123/attendy)** — Team attendance app (Flutter + Firebase): one-tap check-ins on server time… · `Dart` · <sub>updated Nov 10, 2026</sub>
 - **[firestream](https://github.com/Umair-Habibx123/firestream)** — Real-time Flutter chat app for Android with Firebase: one-to-one and group chats, images… · `Dart` · <sub>updated Nov 9, 2026</sub>
 - **[attendy-sqlite](https://github.com/Umair-Habibx123/attendy-sqlite)** — Offline attendance app for Android (Flutter + SQLite): check-ins, leave and admin… · `Dart` · <sub>updated Nov 9, 2026</sub>
@@ -184,12 +184,12 @@ const umair = {
 <!--START_SECTION:activity-->
 <sub>Last 30 days</sub>
 
+- ⬆️ Pushed 2 commits to [pakistan-education-portal](https://github.com/Umair-Habibx123/pakistan-education-portal) <sub>· Nov 9, 2026</sub>
+- ⬆️ Pushed 2 commits to [Umair-Habibx123](https://github.com/Umair-Habibx123/Umair-Habibx123) <sub>· Nov 9, 2026</sub>
 - ⬆️ Pushed 1 commit to [attendy](https://github.com/Umair-Habibx123/attendy) <sub>· Nov 10, 2026</sub>
 - ⬆️ Pushed 3 commits to [firestream](https://github.com/Umair-Habibx123/firestream) <sub>· Nov 9, 2026</sub>
 - ⬆️ Pushed 2 commits to [outpost-last-watch-mango-mania-season-1](https://github.com/Umair-Habibx123/outpost-last-watch-mango-mania-season-1) <sub>· Nov 9, 2026</sub>
 - ⬆️ Pushed 1 commit to [news-app](https://github.com/Umair-Habibx123/news-app) <sub>· Nov 9, 2026</sub>
-- ⬆️ Pushed 1 commit to [pakistan-education-portal](https://github.com/Umair-Habibx123/pakistan-education-portal) <sub>· Nov 9, 2026</sub>
-- ⬆️ Pushed 1 commit to [practice-ecommerce](https://github.com/Umair-Habibx123/practice-ecommerce) <sub>· Nov 9, 2026</sub>
 <!--END_SECTION:activity-->
 
 <!-- ═══════════════════════════ CONTRIBUTION SNAKE ════════════════════════ -->
@@ -224,6 +224,6 @@ The quickest way to reach me is [LinkedIn](https://www.linkedin.com/in/umair-hab
 
 <p align="center">
 <!--START_SECTION:updated-->
-<sub>Updated automatically from live GitHub data · Nov 10, 2026, 7:45 PM UTC</sub>
+<sub>Updated automatically from live GitHub data · Nov 11, 2026, 6:27 AM UTC</sub>
 <!--END_SECTION:updated-->
 </p>

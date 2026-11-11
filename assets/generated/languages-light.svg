@@ -4,16 +4,16 @@
 <text x="24" y="38" font-size="16" font-weight="600" fill="#1F2328">Most used languages</text>
 <clipPath id="bar"><rect x="24" y="60" width="372" height="10" rx="5"/></clipPath>
 <rect x="24" y="60" width="372" height="10" rx="5" fill="#EAEEF2"/>
-<g clip-path="url(#bar)"><rect x="24.00" y="60" width="216.93" height="10" fill="#f1e05a"/><rect x="240.93" y="60" width="67.64" height="10" fill="#00B4AB"/><rect x="308.57" y="60" width="32.71" height="10" fill="#e34c26"/><rect x="341.28" y="60" width="18.62" height="10" fill="#3178c6"/><rect x="359.89" y="60" width="10.56" height="10" fill="#f34b7d"/><rect x="370.46" y="60" width="8.09" height="10" fill="#663399"/><rect x="378.55" y="60" width="17.45" height="10" fill="#8B949E"/></g>
+<g clip-path="url(#bar)"><rect x="24.00" y="60" width="217.43" height="10" fill="#f1e05a"/><rect x="241.43" y="60" width="67.42" height="10" fill="#00B4AB"/><rect x="308.86" y="60" width="32.60" height="10" fill="#e34c26"/><rect x="341.46" y="60" width="18.56" height="10" fill="#3178c6"/><rect x="360.01" y="60" width="10.53" height="10" fill="#f34b7d"/><rect x="370.54" y="60" width="8.06" height="10" fill="#663399"/><rect x="378.60" y="60" width="17.40" height="10" fill="#8B949E"/></g>
 <g class="in" style="animation-delay:0ms">
   <circle cx="29" cy="98" r="5" fill="#f1e05a"/>
   <text x="42" y="102" font-size="13" fill="#1F2328">JavaScript</text>
-  <text x="194" y="102" font-size="13" text-anchor="end" fill="#59636E">58.3%</text>
+  <text x="194" y="102" font-size="13" text-anchor="end" fill="#59636E">58.5%</text>
 </g>
 <g class="in" style="animation-delay:60ms">
   <circle cx="219" cy="98" r="5" fill="#00B4AB"/>
   <text x="232" y="102" font-size="13" fill="#1F2328">Dart</text>
-  <text x="384" y="102" font-size="13" text-anchor="end" fill="#59636E">18.2%</text>
+  <text x="384" y="102" font-size="13" text-anchor="end" fill="#59636E">18.1%</text>
 </g>
 <g class="in" style="animation-delay:120ms">
   <circle cx="29" cy="130" r="5" fill="#e34c26"/>
